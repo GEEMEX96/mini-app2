@@ -1,0 +1,63 @@
+.movie-details-container {
+  margin: 50px auto;
+  padding: 10px;
+  width: 90%;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.poster-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  float: left;
+  margin: 20px;
+}
+
+.info-container {
+  overflow: hidden;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.info span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.info .highlight {
+  color: #e50914;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .poster-container {
+    float: none;
+  }
+  .poster {
+    width: 100%;
+  }
+  .info {
+    padding: 20px;
+    text-align: center;
+  }
+}
